@@ -5,4 +5,23 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 	
 	Staging area is like an interim state of my files before committing them to the repository. So I can pick and choose my files from my working directory and make git selectively trak them before commit is being made.
+
+How can you use the staging area to make sure you have one commit per logical change?
+	
+	Make sure I add only one file at a time to the staging area so I can easier control that I only make one commit per logical change/file.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	Branches seems to be very helpful when I may want to experiment with new features or text different look of my website. Also, branches should be great when working in the team. That means, I could safely work on my piece of code in my own branch. Then, after reviewing my code with the team, I could merge my branch with the master and in that way contribute to the code.
+
+How do the diagrams help you visualize the branch structure?
+	Diagrams help me to visualize the branches structure better and especially unerstand the concept of unreachable branch better.
+	
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	Merging two branches together combines features of both. The diagram represents the result of a merge in this way in order to reflect on the fact that all the commits log done to the secondary branch will be accessible from the master.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	Automatic merging saves time and good for small merges, also, for when I work on my own and want to merge different branches I've been working on. If I work with other people manual merging is better for finding the conflicts in code.
+	
+	
 	
